@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+
+//declaration: starts with void/int/etc, ends with ;
+void snail();
+
+int main() {
+
+//call: does NOT start with void/etc, end with ;
+	snail();
+}
+
+//definition: starts with void/etc, ends with {}
+
+void snail() {
+	int num = 1;
+	while (num < 4) {
+		cout << num << " snail ";
+		num += 1;
+	}
+
+}
