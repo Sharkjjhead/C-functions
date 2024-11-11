@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+
+//declaration: starts with void/int/etc, ends with ;
+void carrtos();
+int main() {
+
+	carrtos();
+}
+void carrtos() {
+	int answer;
+	cout << "how many carrtos do you want" << endl;
+	cin >> answer;
+
+	if (answer < 3)
+		cout << "not enough carrtos idiot" << endl;
+	else if (answer >= 3)
+		cout << "to many carrtos you rabbit" << endl;
+
+}
+//definition: starts with void/etc, ends with {}
