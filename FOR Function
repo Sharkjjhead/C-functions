@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+
+//declaration: starts with void/int/etc, ends with ;
+void banana();
+int main() {
+
+	banana(); //call: does NOT start with void/etc, end with ;
+
+}
+
+//definition: starts with void/etc, ends with {}
+void banana() {
+	for (int i = 0; i < 3; i++) {
+		cout << "banana dance" << endl;
+		//cout << endl;
+	}
+}
